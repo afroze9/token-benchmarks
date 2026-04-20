@@ -1,0 +1,21 @@
+# Raw run transcripts contain real inbox/calendar/chat data
+# from the Microsoft Graph account that ran the benchmark.
+# Excluded for privacy. Reproduce locally to regenerate.
+runs/*/raw/
+runs/*/bench.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
